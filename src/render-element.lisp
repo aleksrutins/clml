@@ -1,4 +1,5 @@
 (in-package :clml)
+
 (defun render-attribute (name val)
   (concatenate 'string
                (symbol-name name) "=\"" val "\" "))
